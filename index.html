@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="shortcut icon" type="x-icon" href="./GlobalAssets/SandboaLogo.png" />  
+    <link rel="stylesheet" href="./style.css">
+    <title>Sandboa Team</title>
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- Nav -->
+        <nav class="nav">
+            <div class="nav-logo">
+                <p>Sandboa Team</p>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#" class="link active">Home</a></li>
+                    <li><a href="#" class="link">Games</a></li>
+                    <li><a href="#" class="link">About</a></li>
+                    <li><a href="#" class="link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav-menu-btn">
+                <i class="bx bx-menu" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+
+
+        <!-- Start Content -->
+        <section>
+            <p>Welcome to the Sandboa page! This site is currently under construction. Please check back later!</p>
+            <img src="./GlobalAssets/InProgress.gif" width="40%"/>
+        </section>
+        <!-- End Content -->
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function myMenuFunction() {
+            var i = document.getElementById("navMenu");
+
+            if (i.className === "nav-menu") {
+                i.className += " responsive";
+            } else {
+                i.className = "nav-menu";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
