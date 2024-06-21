@@ -17,9 +17,9 @@
 
 
 
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" type="x-icon" href="./GlobalAssets/SandboaLogo.png" />  
-    <title>Sandboa Team</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="shortcut icon" type="x-icon" href="../GlobalAssets/SandboaLogo.png" />  
+    <title>Contact - Sandboa Team</title>
 </head>
 
 <body>
@@ -32,10 +32,10 @@
             </div>
             <div class="nav-menu" id="navMenu">
                 <ul>
-                    <li><a href="." class="link active">Home</a></li>
-                    <li><a href="./About/" class="link">About</a></li>
-                    <li><a href="./Games/" class="link">Games</a></li>
-                    <li><a href="./Contact/" class="link">Contact</a></li>
+                    <li><a href=".." class="link">Home</a></li>
+                    <li><a href="../About/" class="link">About</a></li>
+                    <li><a href="../Games/" class="link">Games</a></li>
+                    <li><a href="../Contact/" class="link active">Contact</a></li>
                 </ul>
             </div>
 
@@ -48,47 +48,43 @@
 
         <!-- Start Content -->
         <div class="company-content grid-container">
+            <div class="cell">
 
-
-            <section class="section-content grid-x grid-margin-x">
-
-                <div class="content-center cell large-6">
-                    <h1 class="header-custom">Welcome to the Sandboa Team Official Website!</h1>
-                    <p>Learn more about us here!</p>
-                    <a href="./About/"><button class="custom-button">About Us</button></a>
-                </div>
-                <div class="cell large-6">
-                    <img class="img-custom" src="./GlobalAssets/SandboaLogo.png" draggable="false" loading="lazy"/>
-                </div>
-
-            </section>
-
-
-
-            <section class="section-content-games grid-x grid-margin-x">
-
-                <div class="content-center cell">
-                    <div class="content-background">
-                        <h1 class="header-custom">We make Great Games!</h1>
-                        <p>See the games we have made!</p>
-                        <a href="./Games/"><button class="custom-button">Our list of Games</button></a>
+                <h1 class="content-center header-custom">Contact Form</h1>
+                <form action="https://formsubmit.co/xst-tran6832@stthomas.edu" method="POST" class="grid-x grid-padding-x">
+                    
+                    <div class="cell medium-6">
+                        <label>Full Name <span style="color: red; font-weight: bold;">*</span></label>
+                        <input type="text" name="name" required>
                     </div>
-                </div>
 
-            </section>
+                    <div class="cell medium-6">
+                        <label>Email <span style="color: red; font-weight: bold;">*</span></label>
+                        <input type="email" name="email" required>
+                    </div>
 
+                    <div class="cell">
+                        <label for="subject">Subject <span style="color: red; font-weight: bold;">*</span></label>
+                        <select name="subject" id="subject">
+                            <option value="Questions / Comment">Questions / Comment</option>
+                            <option value="Game Suggestions and Ideas">Game Suggestions and Ideas</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
 
+                    <div class="cell">
+                        <label>Message <span style="color: red; font-weight: bold;">*</span></label>
+                        <textarea placeholder="Write your message here" name="Message" required></textarea>
+                    </div>
 
-            <section class="section-content grid-x grid-margin-x">
+                    <div class="cell">
+                        <button type="submit" class="custom-button">Send</button>
+                    </div>
+                    
+                </form>
+                <br>
 
-                <div class="content-center cell">
-                    <h1 class="header-custom">Do you have anything you want to tell us?</h1>
-                    <p>Submit your thoughts on our contact page! We would love to hear from you!</p>
-                    <a href="./Contact/"><button class="custom-button">Contact Us</button></a>
-                </div>
-
-            </section>
-
+            </div>
         </div>
         <!-- End Content -->
     </div>
@@ -107,10 +103,10 @@
         <div class="footerContainer">
             <div class="footerNav">
                 <ul>
-                    <li><a href=".">Home</a></li>
-                    <li><a href="./About/">About</a></li>
-                    <li><a href="./Games/">Games</a></li>
-                    <li><a href="./Contact/">Contact</a></li>
+                    <li><a href="..">Home</a></li>
+                    <li><a href="../About/">About</a></li>
+                    <li><a href="../Games/">Games</a></li>
+                    <li><a href="../Contact/">Contact</a></li>
                 </ul>
             </div>
             <div class="socialIcons">
