@@ -40,6 +40,11 @@ textarea {
   color: #fad548;
   cursor: pointer;
 }
+/* Line */
+.BolderLine { 
+  border: 5px solid #ab04d9;
+  width: 100%; 
+}
 
 /* .wrapper {
   display: flex;
@@ -49,7 +54,7 @@ textarea {
   min-height: 100vh;
 } */
 .company-content {
-  margin-top: 10em;
+  margin-top: 5em;
 }
 .section-content {
   margin-top: 5em;
@@ -268,7 +273,13 @@ textarea {
 
 
 
-
+/* Game CSS */
+.gamecard{
+  margin-bottom: 5em;
+}
+.flex-video iframe{
+  border: 5px solid #ab04d9;
+}
 
 
 
