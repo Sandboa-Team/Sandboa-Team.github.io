@@ -8,13 +8,13 @@
   font-family: "Poppins", sans-serif;
 }
 body {
-  background: #FAD548;
+  background: #fad548;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-textarea{
+textarea {
   padding: 10px;
   font-size: 1.1em;
   outline: none;
@@ -24,8 +24,8 @@ textarea{
 }
 
 /* Button Style */
-.custom-button{
-  background-color: #AB04D9;
+.custom-button {
+  background-color: #ab04d9;
   color: white;
   border: 5px solid black;
   text-decoration: none;
@@ -33,12 +33,11 @@ textarea{
   border-radius: 1em;
   font-size: 1em;
   font-weight: bold;
-  transition: .2s ease-in-out;
+  transition: 0.2s ease-in-out;
 }
-.custom-button:hover{
-  background-color: #AB04D9;
+.custom-button:hover {
   border: 5px solid white;
-  color: #FAD548;
+  color: #fad548;
   cursor: pointer;
 }
 
@@ -49,36 +48,36 @@ textarea{
   text-align: center;
   min-height: 100vh;
 } */
-.company-content{
+.company-content {
   margin-top: 10em;
 }
-.section-content{
+.section-content {
   margin-top: 5em;
   margin-bottom: 5em;
 }
-.section-content-games{
+.section-content-games {
   background-color: rgba(255, 255, 255, 0.8);
   background: url(./GlobalAssets/low-poly-grid-haikei.svg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  border: 5px solid #AB04D9;
+  border: 5px solid #ab04d9;
 }
-.content-center{
+.content-center {
   text-align: center;
   margin-top: 5em;
 }
-.content-background{
-  background-color: #FAD548;
+.content-background {
+  background-color: #fad548;
   padding: 1em;
-  border: 5px solid #AB04D9;
+  border: 5px solid #ab04d9;
   border-bottom: none;
 }
-.header-custom{
+.header-custom {
   font-weight: bold;
   font-size: 2.5em;
 }
-.img-custom{
+.img-custom {
   width: 100%;
   max-width: 30em;
   display: block;
@@ -88,12 +87,6 @@ textarea{
   /* border: 1px solid red; */
 }
 
-
-
-
-
-
-
 .nav {
   position: fixed;
   top: 0;
@@ -102,7 +95,7 @@ textarea{
   width: 100%;
   height: 6em;
   line-height: 100px;
-  background: #AB04D9;
+  background: #ab04d9;
   z-index: 100;
 }
 .nav-logo p {
@@ -111,7 +104,7 @@ textarea{
   font-weight: bold;
 }
 .nav-menu,
-.nav-logo{
+.nav-logo {
   margin-top: 1.7em;
 }
 .nav-menu ul {
@@ -160,7 +153,7 @@ textarea{
     text-align: center;
     margin: 0;
   }
-  .nav-menu ul li{
+  .nav-menu ul li {
     margin-top: 2em;
     margin-bottom: 2em;
   }
@@ -196,10 +189,98 @@ textarea{
 
 
 
+/* About CSS */
+.main-profiles{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  grid-gap: 1.5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
+
+  /* border: 1px solid red; */
+}
+.single-profile{
+  min-width: 100%;
+  height: 100%;
+  margin-bottom: 1em;
+  /* border: 1px solid white;  */
+}
+
+.single-profile .profile-img{
+  height: 12em;
+  width: 12em;
+  border-radius: 2em;
+  border: 5px solid #ab04d9;
+}
+.single-profile img{
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+  object-fit: cover;
+}
+
+.profile-user-name{
+  margin-top: 1em;
+  font-size: 1.7em;
+}
+.single-profile h5{
+  font-size: .7em;
+  font-weight: bold;
+  letter-spacing: .1em;
+  color: #000000;
+  word-break: break-all;
+}
+@media only screen and (max-width: 1395px){
+  .main-profiles{
+      grid-template-columns: repeat(4, 1fr);
+  }
+
+  .single-profile{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+}
+
+@media only screen and (max-width: 1275px){
+  .main-profiles{
+      grid-template-columns: repeat(3, 1fr);
+      margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 955px){
+  .main-profiles{
+      grid-template-columns: repeat(2, 1fr);
+      margin: 20px 0;
+  }
+}
+
+@media only screen and (max-width: 720px){
+  .main-profiles{
+      grid-template-columns: repeat(1, 1fr);
+      margin: 20px 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Footer */
 footer {
-  background-color: #8303A6;
+  background-color: #8303a6;
 }
 .footerContainer {
   width: 100%;
@@ -216,7 +297,7 @@ footer {
 }
 .socialIcons a i {
   font-size: 2em;
-  color: #FAD548;
+  color: #fad548;
 }
 
 /* Hover affect on social media icon */
@@ -249,7 +330,7 @@ footer {
   opacity: 1;
 }
 .footerBottom {
-  background-color: #AB04D9;
+  background-color: #ab04d9;
   padding: 1em;
   text-align: center;
 }
